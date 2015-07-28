@@ -1,0 +1,54 @@
+body {
+  min-width: 320px;
+}
+
+.main {
+  @include container(85%);
+  margin-top: rhythm(1);
+}
+
+.row {
+  @include cf;
+  position: relative;
+  padding: rhythm(1) 0;
+}
+
+.wrapper {
+  margin: 0 rhythm(0.5);
+}
+
+// 2 column 50-50 split
+.col2-50 {
+  border: 0;
+  @include respond-above(small) {
+    @include span(6 of 12);
+    &:nth-child(2n) {
+      @include last;
+    }
+  }
+}
+
+// 2 column 66-34 split
+.col2-66-34 {
+  border: 0;
+  @include respond-above(medium) {
+    @include span(8 of 12);
+    &:nth-child(2n) {
+      @include span(4 of 12 last);
+    }
+  }
+}
+
+// flexbox layout
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  @include respond-above(medium) {
+    justify-content: flex-start;
+  }
+}
+.flex__item {
+
+}

@@ -1,0 +1,14 @@
+// ==========
+// HEADER
+// -----
+// Basic styling for site header
+// ==========
+
+.site-header {
+  padding: rhythm(1);
+  background: grey;
+  color: white;
+  h1 {
+    margin: 0;
+  }
+}

@@ -1,0 +1,31 @@
+// ==========
+// COLOURS
+// -----
+// Set variables for colours.
+
+// USAGE:
+// -----
+// .test {
+//   background-color: color(color-name);
+// }
+// ==========
+
+$colors: (
+  red: rgba(255, 0, 0, 1),
+  orange: rgba(255, 165, 0, 1),
+  yellow: rgba(255, 255, 0, 1),
+  green: rgba(0, 128, 0, 1),
+  blue: rgba(0, 0, 255, 1),
+  indigo: rgba(75, 0, 130, 1),
+  violet: rgba(238, 130, 238, 1)
+);
+
+$swatches: (
+  color1: red,
+  color2: orange,
+  color3: yellow,
+  color4: green,
+  color5: mediumblue,
+  color6: indigo,
+  color7: violet
+);
