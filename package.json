@@ -9,10 +9,10 @@
   "author": "Chen Hui Jing",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.6.4",
-    "gulp": "^3.8.11",
-    "gulp-autoprefixer": "^3.0.2",
-    "gulp-concat": "^2.5.2",
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
     "gulp-sass": "^2.0.4"
   },
   "repository": {
