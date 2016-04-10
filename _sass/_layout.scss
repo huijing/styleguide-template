@@ -1,10 +1,13 @@
+// =======
+// Layout styles
+// =======
 body {
   min-width: 320px;
 }
 
 .main {
   @include container(85%);
-  margin-top: rhythm(1);
+  margin-top: 1em;
 }
 
 .row {
@@ -14,13 +17,13 @@ body {
 }
 
 .wrapper {
-  margin: 0 rhythm(0.5);
+  margin: 0 0.5em;
 }
 
 // 2 column 50-50 split
 .col2-50 {
   border: 0;
-  @include respond-above(small) {
+  @include mappy-bp(small) {
     @include span(6 of 12);
     &:nth-child(2n) {
       @include last;
@@ -31,7 +34,7 @@ body {
 // 2 column 66-34 split
 .col2-66-34 {
   border: 0;
-  @include respond-above(medium) {
+  @include mappy-bp(medium) {
     @include span(8 of 12);
     &:nth-child(2n) {
       @include span(4 of 12 last);
@@ -45,10 +48,11 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  @include respond-above(medium) {
+  @include mappy-bp(medium) {
     justify-content: flex-start;
   }
 }
 .flex__item {
 
 }
+
