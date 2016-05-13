@@ -401,31 +401,31 @@ a.button--disabled,
 
 .color1 {
   background: red;
-  color: text-color(red); }
+  color: #000000; }
 
 .color2 {
   background: orange;
-  color: text-color(orange); }
+  color: #000000; }
 
 .color3 {
   background: yellow;
-  color: text-color(yellow); }
+  color: #000000; }
 
 .color4 {
   background: green;
-  color: text-color(green); }
+  color: #ffffff; }
 
 .color5 {
   background: mediumblue;
-  color: text-color(mediumblue); }
+  color: #ffffff; }
 
 .color6 {
   background: indigo;
-  color: text-color(indigo); }
+  color: #ffffff; }
 
 .color7 {
   background: violet;
-  color: text-color(violet); }
+  color: #000000; }
 
 .content {
   font-family: 'Redacted'; }
