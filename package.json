@@ -9,12 +9,12 @@
   "author": "Chen Hui Jing",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.14.0",
+    "browser-sync": "^2.21.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-sass": "^2.3.2",
-    "susy": "^2.2.12"
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "susy": "^3.0.1"
   },
   "repository": {
     "type": "git",
